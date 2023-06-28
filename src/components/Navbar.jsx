@@ -6,8 +6,7 @@ import {
 } from 'react-icons/ai'
 import { BsTwitch } from 'react-icons/bs'
 import { LiaBarsSolid } from 'react-icons/lia'
-import { Fragment } from 'react'
-import { Disclosure, Menu, Transition } from '@headlessui/react'
+import { Disclosure } from '@headlessui/react'
 
 const navigation = [
   { name: 'marketplace', href: '#', current: false },

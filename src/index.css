@@ -1,42 +1,45 @@
-@import url('https://fonts.googleapis.com/css2?family=Modak&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Architects+Daughter&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Modak&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Architects+Daughter&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Caprasimo&display=swap");
 
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
 
-body{
-  background-color: 
-  #f9f5e5;
+body {
+  background-color: #f9f5e5;
 }
 
-.font-modak{
-    font-family: 'Modak', cursive;
+.font-modak {
+  font-family: "Modak", cursive;
 }
-.font-arch{
-  font-family: 'Architects Daughter', cursive;
+.font-arch {
+  font-family: "Architects Daughter", cursive;
+}
+.font-caprasimo {
+  font-family: "Caprasimo", cursive;
 }
 .container-wrapper {
-    @apply max-w-[1280px] mx-auto w-[90%];
-  }
+  @apply max-w-[1280px] mx-auto w-[90%];
+}
 #about_video {
-    margin: auto;
-    width: 100%;
-    height: 100vh;
-    object-fit: cover;
-    background-position: center;
-    /* padding-bottom: 20px; */
-  }
-  
-.navbar{
-    border-radius: 50px;
-    z-index: 20;
-    left: 50%;
-    transform: translate(-50%, 0);
+  margin: auto;
+  width: 100%;
+  height: 100vh;
+  object-fit: cover;
+  background-position: center;
+  /* padding-bottom: 20px; */
 }
 
-.about-chart{
-  background-image: url('./assets/about-bg.png');
+.navbar {
+  border-radius: 50px;
+  z-index: 20;
+  left: 50%;
+  transform: translate(-50%, 0);
+}
+
+.about-chart {
+  background-image: url("./assets/about-bg.png");
   background-size: cover;
   background-position: center;
 }

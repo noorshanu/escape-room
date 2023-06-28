@@ -6,14 +6,7 @@ function Partners() {
     <>
       <img src="images/part.png" alt="" className="w-full" />
       <section className="pt-16">
-        <div className="container-wrapper">
-          <div className="relative">
-            <img src="images/part-img.png" alt="" />
-            <div className="content">
-              <div className="logo-grid"></div>
-            </div>
-          </div>
-        </div>
+        <img src="images/logosBox.svg" alt="" className="w-full h-auto max-w-7xl px-5 mx-auto"/>
         <PartSlider/>
       </section>
     </>
