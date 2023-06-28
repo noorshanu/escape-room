@@ -11,7 +11,7 @@ import { Disclosure } from '@headlessui/react'
 const navigation = [
   { name: 'marketplace', href: '#', current: false },
   { name: 'wallet', href: '#', current: false },
-  { name: 'menu', href: '#', current: true },
+
 ]
 let socialIcons = [AiOutlineTwitter, AiOutlineInstagram, BsTwitch]
 function classNames(...classes) {
@@ -50,17 +50,17 @@ export default function Navbar() {
                 <div className="flex flex-shrink-0 order-2 md:order-1 items-center">
                   {socialIcons.map((Icon) => {
                     return (
-                      <div className="bg-white border border-[#433838] border-b-4 px-2 py-2 h-9 w-9 mx-1 rounded-full text-[#433838]">
-                        <Icon className="w-full h-auto" />
+                      <div className="bg-white border border-[#433838] border-b-4 px-2 py-2 h-9 w-9 mx-1 rounded-full text-2xl text-[#433838]">
+                       <a href="/"><Icon className="w-full h-auto text-2xl" /></a> 
                       </div>
                     )
                   })}
                 </div>
                 <div className=" sm:ml-6 flex flex-grow ml-9  order-1 md:order-2 justify-start md:justify-center items-center h-max">
-                  <img src="/images/logo.svg" className="h-[75%] w-auto" />
+                  <img src="/images/logo.svg" className="h-[75%] w-auto" alt='' />
                 </div>
               </div>
-              <div className="hidden absolute inset-y-0 right-0 md:flex items-center pr-2 sm:static sm:inset-auto sm:ml-6 sm:pr-0">
+              <div className="hidden absolute inset-y-0 right-0 md:flex items-center gap-3 pr-2 sm:static sm:inset-auto sm:ml-6 sm:pr-0">
                 {navigation.map((item) => (
                   <a
                     key={item.name}
@@ -76,6 +76,8 @@ export default function Navbar() {
                     {item.name}
                   </a>
                 ))}
+                <a href="/" className='text-white  txt 
+                       px-3 py-2 text-lg font-modak'> menu</a>
 
                 {/* Profile dropdown */}
               </div>

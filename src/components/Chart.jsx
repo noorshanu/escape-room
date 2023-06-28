@@ -2,14 +2,17 @@ import React from 'react'
 
 function Chart() {
   return (
-    <section className='pt-8 bg-[#b7e3ff]  pb-12'>
+    <section className='pt-8 bg-[#b7e3ff]  pb-16 relative'>
         <div className='container-wrapper'>
             <div className='text-center mt-16 '>
-                <img src="images/chart.png" alt="" className='mx-auto h-[400px]'/>
+                <img src="images/chart.png" alt="" className='mx-auto h-[400px] z-10 relative'/>
             </div>
 
         </div>
-        <img src="images/about-bg.png" alt="" />
+        <div className='w-full absolute bottom-0'>
+
+        <img src="images/about-bg.png" alt=""  className='w-full mx-auto text-center'/>
+        </div>
     </section>
   )
 }
