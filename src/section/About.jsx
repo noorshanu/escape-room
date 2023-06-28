@@ -11,7 +11,7 @@ function About() {
               <img src="images/where.png" alt="" />
             </div>
           </div>
-          <p className="font-arch text-[#000] text-xl mt-[-6rem]">
+          <p className="font-arch text-[#000] text-xl mt-0 sm:mt-[-6rem]">
             Lorem ipsum dolor sit amet consectetur. Nunc felis ut donec
             bibendum. Est nunc quam vitae lacus amet posuere id eu. Ac volutpat
             viverra quis eget a pellentesque adipiscing tristique. Tempus
