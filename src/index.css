@@ -8,7 +8,9 @@
 .font-modak{
     font-family: 'Modak', cursive;
 }
-
+.container-wrapper {
+    @apply max-w-[1280px] mx-auto w-[90%];
+  }
 #about_video {
     margin: auto;
     width: 100%;
@@ -20,4 +22,6 @@
 .navbar{
     border-radius: 50px;
     z-index: 20;
+    left: 50%;
+    transform: translate(-50%, 0);
 }
