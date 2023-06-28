@@ -10,8 +10,8 @@ import { Disclosure } from '@headlessui/react'
 
 const navigation = [
   { name: 'marketplace', href: '#', current: false },
-  { name: 'wallet', href: '#', current: true },
-  { name: 'menu', href: '#', current: false },
+  { name: 'wallet', href: '#', current: false },
+  { name: 'menu', href: '#', current: true },
 ]
 let socialIcons = [AiOutlineTwitter, AiOutlineInstagram, BsTwitch]
 function classNames(...classes) {
@@ -68,7 +68,7 @@ export default function Navbar() {
                     className={classNames(
                       item.current
                         ? 'bg-white border border-[#433838] text-[#433838]   border-b-4  rounded-full'
-                        : 'text-white hover:bg-white hover:border hover:border-[#433838] hover:text-[#433838] hover:border-b-4 rounded-full',
+                        : 'text-white market txt hover:bg-white hover:border hover:border-[#433838] hover:text-[#433838] hover:border-b-4 rounded-full',
                       ' px-3 py-2 text-lg font-modak',
                     )}
                     aria-current={item.current ? 'page' : undefined}

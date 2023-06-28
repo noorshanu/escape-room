@@ -58,6 +58,15 @@ body {
   left: 5%;
 
 }
+.market{
+  border: 1px solid #433838;
+background: rgba(255, 255, 255, 0.14);
+box-shadow: 0px 2px 0px 0px #433838;
+
+}
+.txt{
+  text-shadow: 0px 2px 0px 0px #433838;
+}
 
 @media (max-width:768px) {
   .logo-grid{
