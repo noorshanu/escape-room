@@ -1,5 +1,6 @@
 import {useEffect, useRef} from "react";
 import useIntersectionObserver from "../hooks/useIntersectionObserve";
+import Navbar from "../components/Navbar";
 
 
 function Hero() {
