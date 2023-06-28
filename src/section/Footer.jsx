@@ -38,12 +38,12 @@ const Footer = () => {
         <div className="md:col-span-3 place-self-end mt-16">
           <img
             src="/images/welcome.svg"
-            className="w-full h-auto rotate-[5.7deg]"
+            className="w-full h-auto rotate-[5.7deg]" alt=''
           />
         </div>
       </div>
       <div className="flex justify-center flex-col gap-y-1 sm:justify-between items-center sm:flex-row max-w-2xl">
-        <img src="/images/logo.svg" className=" h-inherit w-auto" />
+        <img src="/images/logo.svg" className=" h-inherit w-auto"  alt=''/>
         <div className="flex">
           <button
             className={
@@ -60,7 +60,7 @@ const Footer = () => {
             wallet
           </button>
         </div>
-        <img src="/images/line.svg" className="sm:mb-12" />
+        <img src="/images/line.svg" className="sm:mb-12" alt='' />
       </div>
     </div>
   )
