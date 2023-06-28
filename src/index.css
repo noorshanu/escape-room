@@ -17,3 +17,7 @@
     /* padding-bottom: 20px; */
   }
   
+.navbar{
+    border-radius: 50px;
+    z-index: 20;
+}

@@ -27,7 +27,7 @@ function Hero() {
     }
   }, [isScrolled]);
   return (
-    <>
+    <section className="h-[100vh]">
     <div
         id="about_video"
         className=""
@@ -48,7 +48,7 @@ function Hero() {
                 </video>`,
         }}
       />
-    </>
+    </section>
   )
 }
 
