@@ -55,3 +55,18 @@ body{
   left: 5%;
 
 }
+
+@media (max-width:768px) {
+  .logo-grid{
+    grid-template-columns: repeat(1 ,auto);
+    gap: 3rem;
+  }
+  .logo-grid img{
+    height: 55px;
+  }
+  .content-img {
+    position: absolute;
+    top: 10%;
+    left: 30%;
+  }
+}

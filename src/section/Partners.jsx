@@ -8,7 +8,8 @@ function Partners() {
       <section className="pt-16">
         <div className="container-wrapper">
           <div className="relative">
-            <img src="images/part-img.png" alt="" />
+            <img src="images/part-img.png" alt="" className=" hidden sm:block"/>
+            <img src="images/part-mob.png" alt="" className="block sm:hidden" />
             <div className="content-img mx-auto text-center">
               <div className="logo-grid">
                 <img src="images/part/AmazonPay.png" alt="" />
