@@ -5,6 +5,10 @@
 @tailwind components;
 @tailwind utilities;
 
+body{
+  background-color: 
+  #f9f5e5;
+}
 
 .font-modak{
     font-family: 'Modak', cursive;
