@@ -40,3 +40,8 @@ body{
   background-size: cover;
   background-position: center;
 }
+
+.logo-grid{
+  display: grid;
+  grid-template-columns: repeat(4 ,auto);
+}

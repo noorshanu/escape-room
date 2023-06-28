@@ -10,7 +10,19 @@ function Partners() {
           <div className="relative">
             <img src="images/part-img.png" alt="" />
             <div className="content">
-              <div className="logo-grid"></div>
+              <div className="logo-grid">
+                <img src="images/part/AmazonPay.png" alt="" />
+                <img src="images/part/AmazonPay.png" alt="" />
+                <img src="images/part/AmazonPay.png" alt="" />
+                <img src="images/part/AmazonPay.png" alt="" />
+                <img src="images/part/AmazonPay.png" alt="" />
+                <img src="images/part/AmazonPay.png" alt="" />
+                <img src="images/part/AmazonPay.png" alt="" />
+                <img src="images/part/AmazonPay.png" alt="" />
+
+                
+                
+              </div>
             </div>
           </div>
         </div>
