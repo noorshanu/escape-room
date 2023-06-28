@@ -1,4 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Modak&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Architects+Daughter&display=swap');
 
 @tailwind base;
 @tailwind components;
@@ -7,6 +8,9 @@
 
 .font-modak{
     font-family: 'Modak', cursive;
+}
+.font-arch{
+  font-family: 'Architects Daughter', cursive;
 }
 .container-wrapper {
     @apply max-w-[1280px] mx-auto w-[90%];
@@ -25,4 +29,10 @@
     z-index: 20;
     left: 50%;
     transform: translate(-50%, 0);
+}
+
+.about-chart{
+  background-image: url('./assets/about-bg.png');
+  background-size: cover;
+  background-position: center;
 }
