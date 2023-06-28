@@ -43,5 +43,14 @@ body{
 
 .logo-grid{
   display: grid;
-  grid-template-columns: repeat(4 ,auto);
+  grid-template-columns: repeat(5 ,auto);
+  justify-content: space-between;
+  gap: 4rem;
+}
+
+.content-img{
+  position: absolute;
+  top: 30%;
+  left: 5%;
+
 }
