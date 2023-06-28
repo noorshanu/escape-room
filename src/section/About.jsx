@@ -8,7 +8,10 @@ function About() {
         <div className="container-wrapper">
         <div className="flex">
           <div>
-            <h1>This section is about Our works.</h1>
+            <img src="images/where.svg" alt="" />
+          </div>
+          <div>
+            <img src="images/ready.png" alt="" />
           </div>
         </div>
         </div>
