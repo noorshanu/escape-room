@@ -46,6 +46,7 @@ body{
   grid-template-columns: repeat(5 ,auto);
   justify-content: space-between;
   gap: 4rem;
+  align-items: center;
 }
 
 .content-img{
