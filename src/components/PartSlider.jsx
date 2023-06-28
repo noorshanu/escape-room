@@ -20,6 +20,21 @@ function PartSlider() {
       modules={[Autoplay]}
       onSlideChange={() => console.log("slide change")}
       onSwiper={(swiper) => console.log(swiper)}
+      breakpoints= {{
+        340: {
+          slidesPerView: 3
+        },
+        768: {
+          slidesPerView: 3
+        },
+        1024: {
+          slidesPerView: 5
+        },
+        1560: {
+          slidesPerView: 5
+        }
+      }
+      }
       className="mySwiper"
     >
       <SwiperSlide>
