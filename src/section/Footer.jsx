@@ -35,7 +35,7 @@ const Footer = () => {
             })}
           </div>
         </div>
-        <div className="md:col-span-3 place-self-end mt-16">
+        <div className="md:col-span-3 place-self-end mt-4 sm:mt-16">
           <img
             src="/images/welcome.svg"
             className="w-full h-auto rotate-[5.7deg]" alt=''
