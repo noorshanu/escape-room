@@ -90,5 +90,6 @@ box-shadow: 0px 2px 0px 0px #433838;
     position: absolute;
     top: 10%;
     left: 30%;
+    display: none;
   }
 }

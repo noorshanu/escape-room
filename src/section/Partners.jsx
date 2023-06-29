@@ -1,6 +1,7 @@
 import React from "react";
 import PartSlider from "../components/PartSlider";
 import Marquee from "react-fast-marquee";
+import MobLogo from "../components/MobLogo";
 
 function Partners() {
   return (
@@ -14,7 +15,7 @@ function Partners() {
         <div className="container-wrapper">
           <div className="relative">
             <img src="images/part-img.png" alt="" className=" hidden sm:block"/>
-            <img src="images/part-mob.png" alt="" className="block sm:hidden" />
+           
             <div className="content-img mx-auto text-center">
               <div className="logo-grid">
                 <img src="images/part/AmazonPay.png" alt="" />
@@ -36,6 +37,7 @@ function Partners() {
               </div>
             </div>
           </div>
+          <MobLogo/>
         </div>
         <PartSlider/>
       </section>

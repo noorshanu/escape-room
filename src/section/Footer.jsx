@@ -4,7 +4,7 @@ import { BsTwitch } from 'react-icons/bs'
 const Footer = () => {
   let socialIcons = [AiOutlineTwitter, AiOutlineInstagram, , BsTwitch]
   return (
-    <div className="max-w-5xl mx-auto mt-20 px-8">
+    <div className="max-w-5xl mx-auto mt-8 sm:mt-20 px-8 pb-4">
       <div className="grid md:grid-cols-10 grid-cols-1 gap-x-5">
         <div className="md:col-span-7  ">
           <div>
@@ -60,7 +60,7 @@ const Footer = () => {
             wallet
           </button>
         </div>
-        <img src="/images/line.svg" className="sm:mb-12" alt='' />
+        <img src="/images/line.svg" className="sm:mb-12 hidden sm:block" alt='' />
       </div>
     </div>
   )
