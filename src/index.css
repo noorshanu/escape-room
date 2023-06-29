@@ -69,6 +69,11 @@ box-shadow: 0px 2px 0px 0px #433838;
   font-size: 24px;
   -webkit-text-stroke: 0.7px rgba(0, 0, 0, 0.488);
 }
+.txt2{
+  text-shadow: 0px 2px 0px  #433838;
+ 
+  -webkit-text-stroke: 1px rgba(0, 0, 0, 0.488);
+}
 .txt:hover{
   text-shadow: unset;
 }
