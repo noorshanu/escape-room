@@ -44,7 +44,7 @@ function Hero() {
                   preload="auto"
                 >
               
-                <source src="images/hero.mp4" type="video/mp4" />
+                <source src="images/hero2.mp4" type="video/mp4" />
                 
                 </video>`,
         }}
