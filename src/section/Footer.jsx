@@ -15,7 +15,7 @@ const Footer = () => {
               ESCAPE ROOM
             </h1>
           </div>
-          <p className="text-black font-arch mt-20">
+          <p className="text-black font-arch mt-4 sm:mt-20">
             Lorem ipsum dolor sit amet consectetur. Nunc felis ut donec
             bibendum. Est nunc quam vitae lacus amet posuere id eu. Ac volutpat
             viverra quis eget a pellentesque adipiscing tristique. Tempus
