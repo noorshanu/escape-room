@@ -1,9 +1,16 @@
 import React from 'react'
+import Marquee from "react-fast-marquee";
+
 
 function Roadmap() {
   return (
     <>
-      <img src="images/road.png" alt="" className="w-full relative z-10" />
+    
+      <div className="bg-[#b027fb] pt-3 pb-3  relative z-10">
+        <Marquee>
+          <h1 className="text-[#fff] font-modak text-4xl sm:text-6xl txt2 overflow-hidden ">Road map · Road map · Road map · Road map · Road map · Road map · Road map · Road map · </h1>
+        </Marquee>
+      </div>
       <div className='bg-[url("/public/images/road-bg.png")] bg-cover relative'>
         <img src="images/icons/img4.png" alt="" className=' absolute left-[44%] top-[13%]' />
         <img src="images/icons/star1.png" alt="" className=' absolute right-[12%] top-[29%] h-[65px]' />

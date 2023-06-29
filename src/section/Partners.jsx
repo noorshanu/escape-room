@@ -1,10 +1,15 @@
 import React from "react";
 import PartSlider from "../components/PartSlider";
+import Marquee from "react-fast-marquee";
 
 function Partners() {
   return (
     <>
-      <img src="images/part.png" alt="" className="w-full" />
+       <div className="bg-[#FF768C] pt-3 pb-3  relative z-10">
+        <Marquee>
+          <h1 className="text-[#fff] font-modak text-4xl sm:text-6xl txt2 overflow-hidden ">Partners · Partners · Partners · Partners · Partners · Partners · Partners · Partners · </h1>
+        </Marquee>
+      </div>
       <section className="pt-16">
         <div className="container-wrapper">
           <div className="relative">
