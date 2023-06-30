@@ -2,12 +2,12 @@ import React from 'react'
 import { AiOutlineTwitter, AiOutlineInstagram } from 'react-icons/ai'
 import { BsTwitch } from 'react-icons/bs'
 const Footer = () => {
-  let btns = ['Buy Now', 'Telegram', 'Twitter', 'Whitepaper']
+  let btns = ['Buy Now', 'Telegram', 'Twitter', ]
   return (
     <div className="max-w-6xl mx-auto mt-8 sm:mt-20 px-8 pb-4">
       <div className="grid md:grid-cols-12 grid-cols-1 gap-x-8">
         <div className="md:col-span-2 place-self-center">
-          <img src="/images/logo.svg" className="w-full h-auto" />
+          <img src="/images/logo.png" className="w-full h-auto" alt='' />
         </div>
         <div className="md:col-span-7 place-self-center ">
           <div>
