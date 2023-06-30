@@ -9,10 +9,10 @@ import { LiaBarsSolid } from 'react-icons/lia'
 import { Disclosure } from '@headlessui/react'
 
 const navigation = [
-  { name: 'tokenomics', href: '#', current: false },
-  { name: 'twitter', href: '#', current: false },
-  { name: 'telegram', href: '#', current: false },
-  { name: 'dapp', href: '#', current: false },
+  { name: 'Tokenomics', href: '#', current: false },
+  { name: 'Twitter', href: '#', current: false },
+  { name: 'Telegram', href: '#', current: false },
+  { name: 'Dapp', href: '#', current: false },
 ]
 function classNames(...classes) {
   return classes.filter(Boolean).join(' ')
