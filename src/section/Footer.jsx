@@ -11,11 +11,11 @@ const Footer = () => {
         </div>
         <div className="md:col-span-7 place-self-center ">
           <div>
-            <h1 className="text-3xl sm:text5xl lg:text-6xl text-center md:text-start bg-gradient-to-r from-[#000000] via-[#9DD6FF] to-[#B027FB] text-clip text-transparent bg-clip-text font-bold font-caprasimo">
-              Join the Escape Room Now
+            <h1 className="text-3xl sm:text5xl lg:text-6xl text-center md:text-start about-head font-modak sm:text-8xl">
+              Join the Escape <br/> Room Now
             </h1>
           </div>
-          <p className="text-black font-arch mt-4 sm:mt-20">
+          <p className="text-black font-arch mt-4">
             Escape the ordinary. Join Escape Room today and unleash your inner
             problem-solver. Dare to conquer the challenges, unravel the
             mysteries, and embrace the ultimate escape adventure. Experience the
