@@ -28,7 +28,7 @@ function Hero() {
     }
   }, [isScrolled]);
   return (
-    <section className="h-[100vh]">
+    <section className="h-[100%]">
     <div
         id="about_video"
         className=""
@@ -44,7 +44,7 @@ function Hero() {
                   preload="auto"
                 >
               
-                <source src="images/hero2.mp4" type="video/mp4" />
+                <source src="images/hero.mp4" type="video/mp4" />
                 
                 </video>`,
         }}
