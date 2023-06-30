@@ -22,7 +22,7 @@ export default function Navbar() {
   return (
     <Disclosure
       as="nav"
-      className="bg-[#B027FB] max-w-[90%] mx-auto rounded-[40px] fixed top-5 left-4 right-4 z-50"
+      className="bg-[#B027FB] max-w-[90%] mx-auto rounded-[40px] fixed top-5 left-4 right-4 z-30"
     >
       {({ open }) => (
         <>

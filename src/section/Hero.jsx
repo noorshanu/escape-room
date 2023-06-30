@@ -27,7 +27,7 @@ function Hero() {
     }
   }, [isScrolled]);
   return (
-    <section className="h-[100%] relative">
+    <section className="h-[100%] relative z-50">
       <div
         id="about_video"
         className="max-h-[122vh] w-auto"
