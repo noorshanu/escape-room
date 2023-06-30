@@ -56,13 +56,14 @@ function Hero() {
         >
           Buy now
         </button>
-        <button
+        <a
+        href={"https://escaperoometh.gitbook.io/docs/"}
           className={
             "hover:text-white market txt transition-all duration-300 hover:bg-black bg-[#b027fb] hover:border hover:border-[#433838] text-[#fff] hover:border-b-4 rounded-full px-5 py-2 text-lg font-modak"
           }
         >
           Read more
-        </button>
+        </a>
       </div>
     </section>
   );
