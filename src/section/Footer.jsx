@@ -2,17 +2,17 @@ import React from 'react'
 import { AiOutlineTwitter, AiOutlineInstagram } from 'react-icons/ai'
 import { BsTwitch } from 'react-icons/bs'
 const Footer = () => {
-  let btns = ['Buy Now', 'Telegram', 'Twitter', ]
+  let btns = [{ label: 'Buy Now', href:"#" }, { label: 'Telegram', href:"https://t.me/escaperoometh" }, { label: 'Twitter', href:"https://twitter.com/EscapeRoomETH" }]
   return (
     <div className="max-w-6xl mx-auto mt-8 sm:mt-20 px-8 pb-4">
       <div className="grid md:grid-cols-12 grid-cols-1 gap-x-8">
         <div className="md:col-span-2 place-self-center">
-          <img src="/images/logo.png" className="w-full h-auto" alt='' />
+          <img src="/images/logo.png" className="w-full h-auto" alt="" />
         </div>
         <div className="md:col-span-7 place-self-center ">
           <div>
             <h1 className="text-3xl sm:text5xl lg:text-6xl text-center md:text-start about-head font-modak sm:text-8xl">
-              Join the Escape <br/> Room Now
+              Join the Escape <br /> Room Now
             </h1>
           </div>
           <p className="text-black font-arch mt-4">
@@ -22,15 +22,16 @@ const Footer = () => {
             thrill now!
           </p>
           <div className="flex gap-x-2 mt-5 justify-center md:justify-start flex-wrap sm:flex-nowrap gap-y-2">
-            {btns.map((text) => {
+            {btns.map((btn) => {
               return (
-                <button
+                <a
+                href={btn.href}
                   className={
                     'bg-white hover:bg-black h-min hover:border-transparent group border border-[#433838] text-[#433838]  hover:text-white border-b-4  rounded-full  px-3 flex justify-center py-2 text-lg font-modak'
                   }
                 >
-                  {text}
-                </button>
+                  {btn.label}
+                </a>
               )
             })}
           </div>

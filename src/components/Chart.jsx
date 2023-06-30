@@ -5,7 +5,7 @@ function Chart() {
     <>
      <div className="bg-[#FF768C] pt-3 pb-3  relative z-10">
         <Marquee>
-          <h1 className="text-[#fff] font-modak text-4xl sm:text-6xl txt2 overflow-hidden ">Tokenomics · Tokenomics · Tokenomics · Tokenomics · Tokenomics · Tokenomics · Tokenomics · Tokenomics · </h1>
+          <h1 id='tokenomics' className="text-[#fff] font-modak text-4xl sm:text-6xl txt2 overflow-hidden ">Tokenomics · Tokenomics · Tokenomics · Tokenomics · Tokenomics · Tokenomics · Tokenomics · Tokenomics · </h1>
         </Marquee>
       </div>
 

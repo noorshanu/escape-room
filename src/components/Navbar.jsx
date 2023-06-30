@@ -1,9 +1,9 @@
 import React from 'react'
 
 const navigation = [
-  { name: 'Tokenomics', href: '#', current: false },
-  { name: 'Twitter', href: '#', current: false },
-  { name: 'Telegram', href: '#', current: false },
+  { name: 'Tokenomics', href: '#tokenomics', current: false },
+  { name: 'Twitter', href: 'https://twitter.com/EscapeRoomETH', current: false },
+  { name: 'Telegram', href: 'https://t.me/escaperoometh', current: false },
   { name: 'Dapp', href: '#', current: false },
 ]
 function classNames(...classes) {
