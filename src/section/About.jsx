@@ -11,7 +11,7 @@ function About() {
           </h1>
         </Marquee>
       </div>
-      <section className="pt-8 bg-[#b7e3ff]">
+      <section className="pt-8 pb-10 bg-[#b7e3ff]">
         <div className="container-wrapper">
           <div className="flex items-center">
             <div>
