@@ -11,14 +11,14 @@ function About() {
           </h1>
         </Marquee>
       </div>
-      <section className="pt-8 pb-10 bg-[#b7e3ff]">
+      <section className="pt-10 pb-10 bg-[#b7e3ff]">
         <div className="container-wrapper">
-          <div className="flex items-center">
+          <div className="flex flex-col sm:flex-row items-center justify-between">
             <div>
-              <img src="images/where.png" alt="" />
-            </div>
-          </div>
-          <p className="font-arch text-[#000] text-xl mt-0 sm:mt-[-6rem]">
+              <h1 className="about-head font-modak text-4xl sm:text-8xl ">What is <br/>
+Escape Room?</h1>
+
+<p className="font-arch text-[#000] text-xl mt-0 max-w-[800px]">
             Welcome to the world of Escape Room, an extraordinary project
             inspired by the captivating Squid Games. Immerse yourself in a realm
             of intrigue and challenge where your problem-solving skills will be
@@ -30,6 +30,12 @@ function About() {
             wit and survival. Get ready to experience the thrill of Escape Room
             and discover the captivating secrets that lie within.
           </p>
+            </div>
+            <div className="text-center mx-auto">
+              <img src="images/squid.png" alt="" className="mx-auto " />
+            </div>
+          </div>
+        
         </div>
       </section>
     </>

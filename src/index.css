@@ -75,6 +75,14 @@ border: 1px solid #0000001f;
  
   -webkit-text-stroke: 1px rgba(0, 0, 0, 0.488);
 }
+
+.about-head{
+  color: #fff;
+  text-shadow: 0px 2px 0px  #433838;
+ 
+  -webkit-text-stroke: 2px rgba(0, 0, 0, 0.808);
+
+}
 .txt:hover{
   text-shadow: unset;
 }

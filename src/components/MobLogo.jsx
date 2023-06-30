@@ -3,10 +3,13 @@ import { Swiper, SwiperSlide } from "swiper/react";
 // Import Swiper styles
 import "swiper/css";
 import { Autoplay } from "swiper";
+import Marquee from "react-fast-marquee";
 
 function MobLogo() {
   return (
-    <div className="bg-[#e0dccb] rounded-xl pt-8 pb-8 px-7 block sm:hidden ">
+    <>
+       
+      <div className="bg-[#e0dccb] rounded-xl py-14 px-7  ">
      <Swiper
       slidesPerView={5}
       spaceBetween={20}
@@ -90,6 +93,8 @@ function MobLogo() {
     </Swiper>
    
     </div>
+    </>
+   
   )
 }
 
