@@ -27,7 +27,7 @@ function Hero() {
     }
   }, [isScrolled])
   return (
-    <section className="h-[100%]">
+    <section className="h-[100%] relative">
       <div
         id="about_video"
         className="max-h-[122vh] w-auto"
@@ -48,6 +48,22 @@ function Hero() {
                 </video>`,
         }}
       />
+      <div className="absolute bottom-[15%] left-0 right-0 flex justify-center gap-x-3">
+        <button
+          className={
+            'hover:text-white market txt transition-all duration-300 hover:bg-black bg-white hover:border hover:border-[#433838] text-[#433838] hover:border-b-4 rounded-full px-3 py-2 text-sm font-modak'
+          }
+        >
+          Buy now
+        </button>
+        <button
+          className={
+            'hover:text-white market txt transition-all duration-300 hover:bg-black bg-white hover:border hover:border-[#433838] text-[#433838] hover:border-b-4 rounded-full px-3 py-2 text-sm font-modak'
+          }
+        >
+          Read more
+        </button>
+      </div>
     </section>
   )
 }

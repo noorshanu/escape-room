@@ -9,11 +9,9 @@ const Footer = () => {
         <div className="md:col-span-7  ">
           <div>
             <h1 className="text-3xl sm:text5xl lg:text-6xl bg-gradient-to-r from-[#000000] via-[#9DD6FF] to-[#B027FB] text-clip text-transparent bg-clip-text font-bold font-caprasimo">
-              WELCOME TO THE{' '}
+              Join the Escape Room Now
             </h1>
-            <h1 className="text-3xl sm:text5xl lg:text-6xl bg-gradient-to-r from-[#000000] via-[#9DD6FF] to-[#B027FB] text-clip text-transparent bg-clip-text font-bold font-caprasimo">
-              ESCAPE ROOM
-            </h1>
+            
           </div>
           <p className="text-black font-arch mt-4 sm:mt-20">
             Lorem ipsum dolor sit amet consectetur. Nunc felis ut donec
