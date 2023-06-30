@@ -12,6 +12,7 @@ function Partners() {
         </Marquee>
       </div>
       <section className="pt-16">
+      <PartSlider/>
         <div className="container-wrapper">
           <div className="relative">
             <img src="images/part-img.png" alt="" className=" hidden sm:block"/>
@@ -39,7 +40,7 @@ function Partners() {
           </div>
           <MobLogo/>
         </div>
-        <PartSlider/>
+      
       </section>
     </>
   );
