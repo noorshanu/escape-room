@@ -86,7 +86,9 @@ border: 1px solid #0000001f;
 .txt:hover{
   text-shadow: unset;
 }
-
+.swiper-wrapper{
+  align-items: center;
+}
 @media (max-width:768px) {
   .logo-grid{
     grid-template-columns: repeat(1 ,auto);
