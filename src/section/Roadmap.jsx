@@ -22,8 +22,8 @@ function Roadmap() {
           <img src="/images/card4.png" className="w-full lg:w-[22%] sm:w-[47%] h-auto place-self-end"  alt=''/>
         </div>
         <div className='flex justify-center gap-8 pt-4'>
-          <a href="https://escaperoometh.gitbook.io/docs/" className='ml-2 bg-white border hover:bg-black hover:text-white border-[#433838] text-[#433838]   border-b-4  rounded-full  px-5  flex justify-center py-2.5 text-xl font-modak'> Read More</a>
-          <a href="/" className='ml-2 bg-white border hover:bg-black hover:text-white border-[#433838] text-[#433838]   border-b-4  rounded-full  px-5  flex justify-center py-2.5 text-xl font-modak'> Buy Now</a>
+          <a target='_blank' href="https://escaperoometh.gitbook.io/docs/" className='ml-2 bg-white border hover:bg-black hover:text-white border-[#433838] text-[#433838]   border-b-4  rounded-full  px-5  flex justify-center py-2.5 text-xl font-modak'> Read More</a>
+          <a target='_blank' href="/" className='ml-2 bg-white border hover:bg-black hover:text-white border-[#433838] text-[#433838]   border-b-4  rounded-full  px-5  flex justify-center py-2.5 text-xl font-modak'> Buy Now</a>
         </div>
         <img src="images/icons/low.png" alt="" className=' absolute left-[22%] top-[70%] hidden sm:block' />
       </div>

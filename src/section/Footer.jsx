@@ -26,7 +26,9 @@ const Footer = () => {
               return (
                 <a
                 href={btn.href}
+                target='_blank'
                   className={
+
                     'bg-white hover:bg-black h-min hover:border-transparent group border border-[#433838] text-[#433838]  hover:text-white border-b-4  rounded-full  px-3 flex justify-center py-2 text-lg font-modak'
                   }
                 >

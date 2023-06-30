@@ -23,6 +23,7 @@ export default function Navbar() {
               <a
                 key={item.name}
                 href={item.href}
+                target='_blank'
                 className={classNames(
                   item.current
                     ? 'bg-white border border-[#433838] text-[#433838]   border-b-4  rounded-full'
