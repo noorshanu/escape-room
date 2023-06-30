@@ -26,10 +26,10 @@ const Footer = () => {
               return (
                 <button
                   className={
-                    'bg-white border border-[#433838] text-[#433838]   border-b-4  rounded-full  px-3 w-16 flex justify-center py-2 text-lg font-modak'
+                    'bg-white hover:bg-black hover:border-transparent group border border-[#433838] text-[#433838]   border-b-4  rounded-full  px-3 w-16 flex justify-center py-2 text-lg font-modak'
                   }
                 >
-                  <Icon className="" />
+                  <Icon className="group-hover:text-white" />
                 </button>
               )
             })}
@@ -38,29 +38,34 @@ const Footer = () => {
         <div className="md:col-span-3 place-self-end mt-4 sm:mt-16">
           <img
             src="/images/welcome.svg"
-            className="w-full h-auto rotate-[5.7deg]" alt=''
+            className="w-full h-auto rotate-[5.7deg]"
+            alt=""
           />
         </div>
       </div>
       <div className="flex justify-center flex-col gap-y-1 sm:justify-between items-center sm:flex-row max-w-2xl">
-        <img src="/images/logo.svg" className=" h-inherit w-auto"  alt=''/>
+        <img src="/images/logo.svg" className=" h-inherit w-auto" alt="" />
         <div className="flex">
           <button
             className={
-              'bg-black text-white rounded-full h-fit px-3  py-2 text-lg font-modak'
+              'rounded-full h-fit px-3  py-2 text-lg font-modak border transition-colors duration-300 border-transparent  hover:border-[#433838] hover:text-[#433838]   border-b-4'
             }
           >
             marketplace
           </button>
           <button
             className={
-              'ml-2 bg-white border border-[#433838] text-[#433838]   border-b-4  rounded-full  px-3  flex justify-center py-2 text-lg font-modak'
+              'ml-2 bg-black text-white hover:bg-white transition-colors duration-300 border hover:border-[#433838] hover:text-[#433838]   border-b-4  rounded-full  px-3  flex justify-center py-2 text-lg font-modak'
             }
           >
             wallet
           </button>
         </div>
-        <img src="/images/line.svg" className="sm:mb-12 hidden sm:block" alt='' />
+        <img
+          src="/images/line.svg"
+          className="sm:mb-12 hidden sm:block"
+          alt=""
+        />
       </div>
     </div>
   )

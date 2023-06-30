@@ -9,11 +9,11 @@ import { LiaBarsSolid } from 'react-icons/lia'
 import { Disclosure } from '@headlessui/react'
 
 const navigation = [
-  { name: 'marketplace', href: '#', current: false },
-  { name: 'wallet', href: '#', current: false },
-
+  { name: 'tokenomics', href: '#', current: false },
+  { name: 'twitter', href: '#', current: false },
+  { name: 'telegram', href: '#', current: false },
+  { name: 'dapp', href: '#', current: false },
 ]
-let socialIcons = [AiOutlineTwitter, AiOutlineInstagram, BsTwitch]
 function classNames(...classes) {
   return classes.filter(Boolean).join(' ')
 }
@@ -26,9 +26,9 @@ export default function Navbar() {
     >
       {({ open }) => (
         <>
-          <div className="mx-auto max-w-7xl px-2 sm:px-6 lg:px-8 py-2">
-            <div className="relative flex h-16 items-center justify-between">
-              <div className="absolute inset-y-0 left-0 flex items-center md:hidden">
+          <div className="mx-auto max-w-7xl pr-4 md:px-6 lg:px-8 py-2">
+            <div className="relative w-full flex h-16 items-center justify-between">
+              <div className="absolute inset-y-0 right-0 flex items-center md:hidden">
                 {/* Mobile menu button*/}
                 <Disclosure.Button className="inline-flex items-center justify-center  p-2 text-white focus:outline-none focus:ring-2 focus:ring-inset rounded-full focus:ring-white">
                   <span className="sr-only">Open main menu</span>
@@ -46,21 +46,10 @@ export default function Navbar() {
                   )}
                 </Disclosure.Button>
               </div>
-              <div className="flex flex-1 items-center justify-center sm:items-stretch sm:justify-start">
-                <div className="flex flex-shrink-0 order-2 md:order-1 items-center">
-                  {socialIcons.map((Icon) => {
-                    return (
-                      <div className="bg-white border border-[#433838] border-b-4 px-2 py-2 h-9 w-9 mx-1 rounded-full text-2xl text-[#433838]">
-                       <a href="/"><Icon className="w-full h-auto text-2xl" /></a> 
-                      </div>
-                    )
-                  })}
-                </div>
-                <div className=" sm:ml-6 flex flex-grow ml-9  order-1 md:order-2 justify-start md:justify-center items-center h-max">
-                  <img src="/images/logo.svg" className="h-[75%] w-auto" alt='' />
-                </div>
+              <div className="flex flex-1 items-center justify-start sm:items-stretch sm:justify-start">
+                <img src="/images/logo.svg" className="h-[75%] w-auto" alt="" />
               </div>
-              <div className="hidden absolute inset-y-0 right-0 md:flex items-center gap-3 pr-2 sm:static sm:inset-auto sm:ml-6 sm:pr-0">
+              <div className="hidden absolute inset-y-0 right-0 md:flex items-center gap-1 pr-2 sm:static sm:inset-auto sm:ml-6 sm:pr-0">
                 {navigation.map((item) => (
                   <a
                     key={item.name}
@@ -69,15 +58,13 @@ export default function Navbar() {
                       item.current
                         ? 'bg-white border border-[#433838] text-[#433838]   border-b-4  rounded-full'
                         : 'text-white market txt hover:bg-white hover:border hover:border-[#433838] hover:text-[#433838] hover:border-b-4 rounded-full',
-                      ' px-3 py-2 text-lg font-modak',
+                      ' px-3 py-2 text-sm font-modak',
                     )}
                     aria-current={item.current ? 'page' : undefined}
                   >
                     {item.name}
                   </a>
                 ))}
-                <a href="/" className='text-white  txt 
-                       px-3 py-2 text-lg font-modak'> menu</a>
 
                 {/* Profile dropdown */}
               </div>
@@ -94,8 +81,8 @@ export default function Navbar() {
                   className={classNames(
                     item.current
                       ? 'bg-gray-900 text-white'
-                      : 'text-gray-300 hover:bg-gray-700 hover:text-white',
-                    'block rounded-md px-3 py-2 text-base font-medium',
+                      : ' hover:bg-gray-700 text-white',
+                    'block rounded-md px-6 py-2 text-lg tracking-wider font-modak',
                   )}
                   aria-current={item.current ? 'page' : undefined}
                 >

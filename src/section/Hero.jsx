@@ -1,11 +1,10 @@
-import {useEffect, useRef} from "react";
-import useIntersectionObserver from "../hooks/useIntersectionObserve";
-import Navbar from "../components/Navbar";
-
+import { useEffect, useRef } from 'react'
+import useIntersectionObserver from '../hooks/useIntersectionObserve'
+import Navbar from '../components/Navbar'
 
 function Hero() {
-  const videoRef = useRef();
-  const isScrolled = useIntersectionObserver(videoRef, { threshold: 0.5 });
+  const videoRef = useRef()
+  const isScrolled = useIntersectionObserver(videoRef, { threshold: 0.5 })
 
   useEffect(() => {
     if (videoRef?.current) {
@@ -13,30 +12,30 @@ function Hero() {
         videoRef.current.currentTime > 0 &&
         !videoRef.current.paused &&
         !videoRef.current.ended &&
-        videoRef.current.readyState > videoRef.current.HAVE_CURRENT_DATA;
+        videoRef.current.readyState > videoRef.current.HAVE_CURRENT_DATA
 
       if (isScrolled) {
         // videoRef.current.currentTime = 0;
         if (!isPlaying) {
-          videoRef.current.play();
+          videoRef.current.play()
         }
       } else {
         if (isPlaying) {
-          videoRef.current.pause();
+          videoRef.current.pause()
         }
       }
     }
-  }, [isScrolled]);
+  }, [isScrolled])
   return (
     <section className="h-[100%]">
-    <div
+      <div
         id="about_video"
-        className=""
+        className="max-h-[122vh] w-auto"
         dangerouslySetInnerHTML={{
           __html: `
                 <video
                 id="about_video"
-                
+                class="max-h-[122vh] w-auto"
                 autoplay
                 muted
                 loop
