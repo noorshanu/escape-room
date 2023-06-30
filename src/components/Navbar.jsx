@@ -57,7 +57,7 @@ export default function Navbar() {
                     className={classNames(
                       item.current
                         ? 'bg-white border border-[#433838] text-[#433838]   border-b-4  rounded-full'
-                        : 'text-[#b027fb] bg-white  market txt hover:bg-black hover:border hover:border-[#433838] hover:text-[#fff] hover:border-b-4 rounded-full',
+                        : 'text-[#b127fbce] bg-white  market txt hover:bg-black hover:border hover:border-[#433838] hover:text-[#fff] hover:border-b-4 rounded-full',
                       ' px-3 py-2 text-sm font-modak',
                     )}
                     aria-current={item.current ? 'page' : undefined}
