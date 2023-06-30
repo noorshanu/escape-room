@@ -19,7 +19,7 @@ function Partners() {
       <div className="bg-[#AFE0FF] pt-3 pb-3 mt-8 ">
         <Marquee>
           <h1 className="text-[#fff] font-modak text-4xl sm:text-6xl txt2 overflow-hidden ">
-          Featured. Featured. Featured. Featured. Featured. Featured.
+          Featured On. Featured On. Featured On. Featured On. Featured On. Featured On.
           </h1>
         </Marquee>
       </div>
