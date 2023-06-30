@@ -41,53 +41,63 @@ function MobLogo() {
     >
       <SwiperSlide>
         <div>
-        <img src="images/part/AmazonPay.png" alt="" />
+        <img src="images/part/img1.png" alt="" className=" h-full w-full"/>
         </div>
       </SwiperSlide>
       <SwiperSlide>
         <div>
-        <img src="images/part/img2.png" alt="" />
+        <img src="images/part/img2.png" alt="" className=" h-full w-full" />
         </div>
       </SwiperSlide>
       <SwiperSlide>
         <div>
-        <img src="images/part/img3.png" alt="" />
+        <img src="images/part/img3.png" alt="" className=" h-full w-full "/>
         </div>
       </SwiperSlide>
       <SwiperSlide>
         <div>
-        <img src="images/part/img4.png" alt="" />
+        <img src="images/part/img4.png" alt="" className=" h-full w-full " />
         </div>
       </SwiperSlide>
       <SwiperSlide>
         <div>
-        <img src="images/part/img5.png" alt="" />
+        <img src="images/part/img5.png" alt="" className=" h-full w-full " />
         </div>
       </SwiperSlide>
       <SwiperSlide>
-        <div>
-        <img src="images/part/img6.png" alt="" />
+        <div> 
+        <img src="images/part/img6.png" alt="" className=" h-full w-full " />
         </div>
       </SwiperSlide>
 
       <SwiperSlide>
         <div>
-        <img src="images/part/img7.png" alt="" />
+        <img src="images/part/img7.png" alt=""  className=" h-full w-full "/>
         </div>
       </SwiperSlide>
       <SwiperSlide>
         <div>
-        <img src="images/part/img8.png" alt="" />
+        <img src="images/part/img8.png" alt="" className=" h-full w-full " />
         </div>
       </SwiperSlide>
       <SwiperSlide>
         <div>
-        <img src="images/part/img9.png" alt="" />
+        <img src="images/part/img9.png" alt="" className=" h-full w-full " />
         </div>
       </SwiperSlide>
       <SwiperSlide>
         <div>
-        <img src="images/part/GooglePay.png" alt="" />
+        <img src="images/part/img10.png" alt="" className=" h-full w-full " />
+        </div>
+      </SwiperSlide>
+      <SwiperSlide>
+        <div>
+        <img src="images/part/img11.png" alt="" className=" h-full w-full " />
+        </div>
+      </SwiperSlide>
+      <SwiperSlide>
+        <div>
+        <img src="images/part/img12.png" alt="" className=" h-full w-full " />
         </div>
       </SwiperSlide>
     </Swiper>
