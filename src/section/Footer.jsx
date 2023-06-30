@@ -2,68 +2,46 @@ import React from 'react'
 import { AiOutlineTwitter, AiOutlineInstagram } from 'react-icons/ai'
 import { BsTwitch } from 'react-icons/bs'
 const Footer = () => {
-  let socialIcons = [AiOutlineTwitter, AiOutlineInstagram, , BsTwitch]
+  let btns = ['Buy Now', 'Telegram', 'Twitter', 'Whitepaper']
   return (
-    <div className="max-w-5xl mx-auto mt-8 sm:mt-20 px-8 pb-4">
-      <div className="grid md:grid-cols-10 grid-cols-1 gap-x-5">
-        <div className="md:col-span-7  ">
+    <div className="max-w-6xl mx-auto mt-8 sm:mt-20 px-8 pb-4">
+      <div className="grid md:grid-cols-12 grid-cols-1 gap-x-8">
+        <div className="md:col-span-2 place-self-center">
+          <img src="/images/logo.svg" className="w-full h-auto" />
+        </div>
+        <div className="md:col-span-7 place-self-center ">
           <div>
-            <h1 className="text-3xl sm:text5xl lg:text-6xl bg-gradient-to-r from-[#000000] via-[#9DD6FF] to-[#B027FB] text-clip text-transparent bg-clip-text font-bold font-caprasimo">
+            <h1 className="text-3xl sm:text5xl lg:text-6xl text-center md:text-start bg-gradient-to-r from-[#000000] via-[#9DD6FF] to-[#B027FB] text-clip text-transparent bg-clip-text font-bold font-caprasimo">
               Join the Escape Room Now
             </h1>
-            
           </div>
           <p className="text-black font-arch mt-4 sm:mt-20">
-            Lorem ipsum dolor sit amet consectetur. Nunc felis ut donec
-            bibendum. Est nunc quam vitae lacus amet posuere id eu. Ac volutpat
-            viverra quis eget a pellentesque adipiscing tristique. Tempus
-            adipiscing habitant euismod egestas lec.
+            Escape the ordinary. Join Escape Room today and unleash your inner
+            problem-solver. Dare to conquer the challenges, unravel the
+            mysteries, and embrace the ultimate escape adventure. Experience the
+            thrill now!
           </p>
-          <div className="flex gap-x-2 mt-5">
-            {socialIcons.map((Icon) => {
+          <div className="flex gap-x-2 mt-5 justify-center md:justify-start flex-wrap sm:flex-nowrap gap-y-2">
+            {btns.map((text) => {
               return (
                 <button
                   className={
-                    'bg-white hover:bg-black hover:border-transparent group border border-[#433838] text-[#433838]   border-b-4  rounded-full  px-3 w-16 flex justify-center py-2 text-lg font-modak'
+                    'bg-white hover:bg-black h-min hover:border-transparent group border border-[#433838] text-[#433838]  hover:text-white border-b-4  rounded-full  px-3 flex justify-center py-2 text-lg font-modak'
                   }
                 >
-                  <Icon className="group-hover:text-white" />
+                  {text}
                 </button>
               )
             })}
           </div>
         </div>
-        <div className="md:col-span-3 place-self-end mt-4 sm:mt-16">
+        <div className="md:col-span-3 place-self-center md:place-self-end mt-4 sm:mt-16">
           <img
             src="/images/welcome.svg"
             className="w-full h-auto rotate-[5.7deg]"
             alt=""
           />
         </div>
-      </div>
-      <div className="flex justify-center flex-col gap-y-1 sm:justify-between items-center sm:flex-row max-w-2xl">
-        <img src="/images/logo.svg" className=" h-inherit w-auto" alt="" />
-        <div className="flex">
-          <button
-            className={
-              'rounded-full h-fit px-3  py-2 text-lg font-modak border transition-colors duration-300 border-transparent  hover:border-[#433838] hover:text-[#433838]   border-b-4'
-            }
-          >
-            marketplace
-          </button>
-          <button
-            className={
-              'ml-2 bg-black text-white hover:bg-white transition-colors duration-300 border hover:border-[#433838] hover:text-[#433838]   border-b-4  rounded-full  px-3  flex justify-center py-2 text-lg font-modak'
-            }
-          >
-            wallet
-          </button>
-        </div>
-        <img
-          src="/images/line.svg"
-          className="sm:mb-12 hidden sm:block"
-          alt=""
-        />
       </div>
     </div>
   )
