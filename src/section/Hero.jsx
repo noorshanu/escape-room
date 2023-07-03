@@ -49,16 +49,19 @@ function Hero() {
         }}
       />
       <div className="absolute bottom-[15%] left-0 right-0 flex justify-center gap-x-3">
-        <button
-          className={
+        <a href="https://www.pinksale.finance/launchpad/0x47087e301148d6d52515F6999Dd4B613e26143A5?chain=ETH"
+         target="_blank"
+         rel="noreferrer"
+         className={
             "hover:text-white market  transition-all duration-300 hover:bg-black bg-[#b027fb] hover:border hover:border-[#433838] text-[#fff] txt hover:border-b-4 rounded-full px-5 py-2 text-lg font-modak"
           }
         >
           Buy now
-        </button>
+        </a>
         <a
         href={"https://escaperoometh.gitbook.io/docs/"}
         target='_blank'
+        rel="noreferrer"
           className={
             "hover:text-white market txt transition-all duration-300 hover:bg-black bg-[#b027fb] hover:border hover:border-[#433838] text-[#fff] hover:border-b-4 rounded-full px-5 py-2 text-lg font-modak"
           }

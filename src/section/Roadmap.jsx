@@ -23,7 +23,7 @@ function Roadmap() {
         </div>
         <div className='flex justify-center gap-8 pt-4'>
           <a target='_blank' href="https://escaperoometh.gitbook.io/docs/" className='ml-2 bg-white border hover:bg-black hover:text-white border-[#433838] text-[#433838]   border-b-4  rounded-full  px-5  flex justify-center py-2.5 text-xl font-modak'> Read More</a>
-          <a target='_blank' href="/" className='ml-2 bg-white border hover:bg-black hover:text-white border-[#433838] text-[#433838]   border-b-4  rounded-full  px-5  flex justify-center py-2.5 text-xl font-modak'> Buy Now</a>
+          <a target='_blank' href="https://www.pinksale.finance/launchpad/0x47087e301148d6d52515F6999Dd4B613e26143A5?chain=ETH" className='ml-2 bg-white border hover:bg-black hover:text-white border-[#433838] text-[#433838]   border-b-4  rounded-full  px-5  flex justify-center py-2.5 text-xl font-modak'> Buy Now</a>
         </div>
         <img src="images/icons/low.png" alt="" className=' absolute left-[22%] top-[70%] hidden sm:block' />
       </div>
