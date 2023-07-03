@@ -30,12 +30,12 @@ function Hero() {
     <section className="h-[100%] relative sm:z-0 z-50">
       <div
         id="about_video"
-        className="max-h-[122vh] w-auto"
+        className="max-h-[122vh] h-auto w-screen"
         dangerouslySetInnerHTML={{
           __html: `
                 <video
                 id="about_video"
-                class="max-h-[122vh] w-auto"
+                class="max-h-[122vh] h-auto w-screen"
                 autoplay
                 muted
                 loop

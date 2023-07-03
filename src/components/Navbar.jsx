@@ -13,7 +13,7 @@ function classNames(...classes) {
 export default function Navbar() {
   return (
     <nav className="bg-[#B027FB] max-w-[90%] mx-auto rounded-[40px] fixed top-5 left-4 right-4 z-30">
-      <div className="mx-auto max-w-7xl pr-4 md:px-6 lg:px-8 py-2">
+      <div className="mx-auto max-w-7xl 2xl:max-w-[90%] pr-4 md:px-6 lg:px-8 py-2">
         <div className="relative w-full flex h-16 items-center justify-between">
           <div className="flex flex-1 items-center justify-center md:items-stretch md:justify-start">
             <img src="/images/logo.svg" className="h-[75%] w-auto" alt="" />
